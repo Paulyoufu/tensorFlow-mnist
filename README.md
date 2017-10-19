@@ -11,8 +11,8 @@
 2. 可以访问localhost:5000 或127.0.0.1:5000 但绝不是0.0.0.0:5000 [不懂](https://www.v2ex.com/t/266144)
 3. 结果根据训练数据不同可能会有较大误差，我只训练了一小部分（电脑太渣）
 4. 其他事项见代码注释，或自行查找
-
-------------------  
+5. 有关tensorflow更多信息还是去看[tensorflow的官方文档](http://www.tensorfly.cn/tfdoc/api_docs/index.html)
+------------------
 > 本人运行环境
 > win10 64位  
 [Anaconda3-5.0.0-windows-x86_64](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)   

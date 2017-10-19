@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-
+# 解压t10k-images.idx3-ubyte到test0下（必须在当前目录创建文件夹test0），10000张png图片
 from PIL import Image
 import struct
 #import PIL
@@ -43,4 +42,4 @@ def read_label(filename, saveFilename):
 
 if __name__ == '__main__':
   read_image('t10k-images.idx3-ubyte')
-  read_label('t10k-labels.idx1-ubyte', 'test0/label.txt')
+  read_label('t10k-labels.idx1-ubyte', 'test0/label.txt') #标签解析到label.txt

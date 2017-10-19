@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-
+#解压train-images.idx3-ubyte的60000张图片到test1目录下，test1必须先被创建，MNIST数据好像不断更新，我解压了60000个图片，之前好像有人说是55000
 from PIL import Image
 import struct
 #import PIL
@@ -43,4 +43,4 @@ def read_label(filename, saveFilename):
 
 if __name__ == '__main__':
   read_image('train-images.idx3-ubyte')
-  read_label('train-labels.idx1-ubyte', 'test1/label.txt')
+  read_label('train-labels.idx1-ubyte', 'test1/label.txt') 
